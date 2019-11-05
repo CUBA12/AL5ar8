@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`-bc |DF_Team`,"http://twitch.tv/Death Shop")
+client.user.setGame(`افضل مطوره بالعالم الخارقهه`,"http://twitch.tv/Death Shop")
 client.user.setStatus("افضل مطوره بالعالم الخارقهه")
 });
 
@@ -22,7 +22,7 @@ client.on("message", async message => {
     command = command.slice(prefix.length);
         if(!message.channel.guild) return;
             var args = message.content.split(" ").slice(1).join(" ");
-            if(command == "bc") {
+            if(command == "-bc") {
                 if(!message.member.hasPermission("ADMINISTRATOR")) {
                     return message.channel.send("**للأسف لا تمتلك صلاحية `ADMINISTRATOR`**");
                 }
